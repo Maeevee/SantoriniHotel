@@ -1,0 +1,1 @@
+export interface IBannerNav {id: string, title: string}
