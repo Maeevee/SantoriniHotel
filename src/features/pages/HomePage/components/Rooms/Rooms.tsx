@@ -1,7 +1,7 @@
 import { Container } from "@/common/components/Container/Container"
 import Image from "next/image"
 import { useImg } from "./hooks/useImg"
-import { Swiper, SwiperSlide } from 'swiper/react';
+// import { Swiper, SwiperSlide } from 'swiper/react';
 
 
 export const Rooms = () => {
