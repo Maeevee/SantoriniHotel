@@ -11,7 +11,7 @@ export const EnjoySection = () => {
   
     return (
       <Container>
-        <h2 className=" text-5xl ml-[29%] mt-52">Enjoy a luxury experience</h2>
+        <h2 className=" text-5xl ml-[29%] mt-52 uppercase">Enjoy a luxury experience</h2>
         <p className="text-xl ml-[25%] my-7">
           Welcome to Santorini Breeze Hotel, a luxurious and inviting destination
           situated on the breathtaking island of Santorini. Our hotel offers a
