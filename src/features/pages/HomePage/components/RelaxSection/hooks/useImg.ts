@@ -1,4 +1,4 @@
 import { IImg } from "../interface"
-import enjoySection from "@/common/data/enjoySection.json"
+import relaxSection from "@/common/data/relaxSection.json"
 
-export const useImg = ():IImg[] => enjoySection
+export const useImg = ():IImg[] => relaxSection

@@ -5,13 +5,14 @@ import Image from "next/image"
 import img1 from "../../../../../../public/images/engoysection/Group7.png"
 import img2 from "../../../../../../public/images/engoysection/Group8.png"
 import img3 from "../../../../../../public/images/engoysection/Group9.png"
+import { Header } from "@/common/components/Header/Header"
 
 export const EnjoySection = () => {
     const img = useImg();
   
     return (
       <Container>
-        <h2 className=" text-5xl ml-[29%] mt-52 uppercase">Enjoy a luxury experience</h2>
+        <Header className=" ml-[29%] mt-52">Enjoy a luxury experience</Header>
         <p className="text-xl ml-[25%] my-7">
           Welcome to Santorini Breeze Hotel, a luxurious and inviting destination
           situated on the breathtaking island of Santorini. Our hotel offers a
