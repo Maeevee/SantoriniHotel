@@ -14,6 +14,22 @@ module.exports = {
         'main': '#F1ECE9',
         'primary': '#EA854C',
         'secondary': '#F0EEED'
+      },
+      gridTemplateColumns: {
+        '24': 'repeat(24, minmax(0, 1fr))'
+      },
+      gridTemplateRows: {
+        '17': 'repeat(17, minmax(0, 1fr))',
+      },
+      gridColumnStart: {
+        '13': '13',
+        '14': '14',
+        '15': '15',
+        '16': '16',
+        '17': '17',
+        '18': '18',
+        '19': '19',
+        '20': '20',
       }
     },
   },

@@ -4,5 +4,5 @@ interface IProps {
 }
 
 export const Container = ({ children, className }: IProps) => (
-    <div className={`p-8 ${className}`}>{children}</div>
+    <div className={`p-6 ${className}`}>{children}</div>
 );

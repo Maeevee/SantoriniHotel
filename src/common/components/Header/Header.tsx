@@ -4,5 +4,5 @@ interface IProps {
 }
 
 export const Header = ({ children, className }: IProps) => (
-    <div className={`text-[50px] uppercase ${className}`}>{children}</div>
+    <h2 className={`text-[50px] uppercase ${className}`}>{children}</h2>
 );
