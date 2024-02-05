@@ -9,12 +9,12 @@ interface Props{
 
 export const Navigation = ({footer}:Props) => {
 
-    const bannerNav = useBannerNav()
+    const bannerNav = useBannerNav(footer)
     return(
         <nav className="">
-                        <ul className="">
-                            {bannerNav.map(({id, title, className}) => <li className={className} key={id}>{title}</li>)}
-                        </ul>
-                    </nav>
+            <ul className="">
+                {bannerNav.map(({id, title, className}) => <li className={`text-[50px] uppercase ${className}`} key={id}>{title}</li>)}
+            </ul>
+        </nav>
     )
 }
