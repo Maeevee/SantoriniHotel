@@ -17,7 +17,7 @@ export const Banner = () => {
                         </ul>
                     </nav>
                 </header>
-                <h1 className="mt-32 text-7xl font-thin mb-52 uppercase"><span className="block">Santorini</span> Breeze Hotel</h1>
+                <h1 className="mt-32 text-7xl font-thin mb-52 uppercase font-rufina"><span className="block">Santorini</span> Breeze Hotel</h1>
                 <CheckAvailability/> 
             </Container>
         </div>
