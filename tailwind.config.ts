@@ -32,6 +32,9 @@ module.exports = {
         '20': '20',
       }
     },
+    fontFamily: {
+      'rufina': ['Rufina', 'serif'],
+    }
   },
   plugins: [],
 }
