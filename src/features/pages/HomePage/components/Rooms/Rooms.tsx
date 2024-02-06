@@ -12,7 +12,7 @@ export const Rooms = () => {
     return(
         <Container>
             <Header>Experience Comfort in Every Room</Header>
-            <p className="text-xl mt-10 mb-7">As soon as you step through our doors, you will be greeted by our friendly and attentive staff. Our rooms and suites are designed with your comfort in mind, featuring modern furnishings and stunning views of the island and the Aegean Sea.</p>
+            <p className="primary-text mt-10 mb-7 w-[49%]">As soon as you step through our doors, you will be greeted by our friendly and attentive staff. Our rooms and suites are designed with your comfort in mind, featuring modern furnishings and stunning views of the island and the Aegean Sea.</p>
     
         </Container>
     )

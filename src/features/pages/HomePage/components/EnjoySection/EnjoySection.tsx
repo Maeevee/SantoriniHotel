@@ -12,19 +12,19 @@ export const EnjoySection = () => {
   
     return (
       <Container>
-        <Header className=" ml-[29%] mt-52">Enjoy a luxury experience</Header>
-        <p className="text-xl ml-[25%] my-7">
+        <Header className=" ml-[26%] mt-36">Enjoy a luxury experience</Header>
+        <p className="primary-text ml-[26%] my-7 w-[37%]">
           Welcome to Santorini Breeze Hotel, a luxurious and inviting destination
           situated on the breathtaking island of Santorini. Our hotel offers a
           range of world-class amenities and unparalleled service.
         </p>
-        <div className="flex items-start justify-between mb-52">
+        <div className="flex items-start justify-between mb-28">
           <Image  src={img2} alt="Terrace with spa"/>
           <Image src={img1} alt="Restaurant terrace"/>
-          <button type="button" className="self-end py-2.5 px-14 text-nowrap bg-primary rounded-2xl text-white">LEARN MORE</button>
-          <div className="w-[240px] text-xl text-right">
+          <button type="button" className="self-end primary-btn">LEARN MORE</button>
+          <div className="w-[322px]	 text-xl text-right">
             <Image src={img3} alt="View from the balcony"/>
-            <p>We providing a serene and tranquil atmosphere.</p>
+            <p className="secondary-text w-3/4 ml-auto text-right mt-5">We providing a serene and tranquil atmosphere.</p>
           </div>
         </div>
         {/* {img.map(({ id, src }) => (
