@@ -112,7 +112,7 @@ export const Rooms = () => {
    const img = useImg()
 
     return(
-        <Container>
+        <Container className="flex flex-col mb-36">
             <Header>Experience Comfort in Every Room</Header>
             <p className="primary-text mt-10 mb-7 w-[49%]">As soon as you step through our doors, you will be greeted by our friendly and attentive staff. Our rooms and suites are designed with your comfort in mind, featuring modern furnishings and stunning views of the island and the Aegean Sea.</p>
             <motion.div 
@@ -131,18 +131,17 @@ export const Rooms = () => {
                 >
                     {slides.map((slide) => {
                         return (
-                            <motion.div 
-                            // drag="x" 
-                            // dragConstraints={{ right: 0, left: -width }}  
-                                className='mr-2 h-[514px] min-w-fit	snap-x	' 
-                                key={slide} 
-                            >
-                                        <Image className="h-[514px] w-auto rounded-lg	" src={slide.image} alt=''/>
-                            </motion.div>
+                            // <motion.div
+                            //     className='mr-2 h-[514px] min-w-fit	snap-x	' 
+                            //     key={slide} 
+                            // >
+                                        <Image  className="h-[514px] mr-2 w-auto rounded-lg snap-x" src={slide.image} alt=''/>
+                            // </motion.div>
                         )
                     })}
                 </motion.div>
             </motion.div>
+            <button className="secondary-btn self-center mt-10" type="button">VIEW ALL</button>
         </Container>
     )
 }

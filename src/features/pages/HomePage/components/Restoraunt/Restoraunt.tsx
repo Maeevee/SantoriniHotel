@@ -7,7 +7,7 @@ import { Header } from "@/common/components/Header/Header";
 export const Restoraunt = () => {
     return(
         <Container>
-            <Header className="mb-12 text-center">Indulge in Greek Flavors and Breathtaking Views at Our Restaurant</Header>
+            <Header className="mb-12 text-left"><span className="block ml-[24.5%]">Indulge in Greek Flavors</span>and Breathtaking Views at Our Restaurant</Header>
             <div className="grid grid-cols-24 grid-rows-8">
                 <p className="col-start-1 col-span-10 w-[95%] row-span-2 primary-text justify-self-start self-start mt-1">At Santorini Breeze Hotel, we believe that dining is an essential part of any vacation experience. That's why we've created an exceptional culinary experience for our guests in our in-house restaurant.</p>
                 <Image className="col-start-15  col-span-10 row-start-1 row-span-8 place-self-center" src={photo} alt="" />
