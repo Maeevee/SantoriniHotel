@@ -99,22 +99,12 @@ export const Rooms = () => {
         };
     }, []);
 
-
-
-
-
-
-
-
-
-
-
    const img = useImg()
 
     return(
-        <Container className="flex flex-col mb-36">
-            <Header>Experience Comfort in Every Room</Header>
-            <p className="primary-text mt-10 mb-7 w-[49%]">As soon as you step through our doors, you will be greeted by our friendly and attentive staff. Our rooms and suites are designed with your comfort in mind, featuring modern furnishings and stunning views of the island and the Aegean Sea.</p>
+        <div className="flex flex-col mb-36">
+            <Header className="mx-9">Experience Comfort in Every Room</Header>
+            <p className="mx-9 primary-text mt-10 mb-7 w-[49%]">As soon as you step through our doors, you will be greeted by our friendly and attentive staff. Our rooms and suites are designed with your comfort in mind, featuring modern furnishings and stunning views of the island and the Aegean Sea.</p>
             <motion.div 
                 ref={carousel} 
                 className='overflow-auto min-w-full pb-5' 
@@ -124,7 +114,7 @@ export const Rooms = () => {
                 <motion.div 
                     drag="x" 
                     dragConstraints={{ right: 0, left: -width }} 
-                    className='flex'
+                    className='flex mx-9 [&>*:last-child]:mr-9'
                     // animate={{
                     //     x: -(5390 - innerWidth)}} 
                     //     transition={{ duration: 35}}
@@ -139,10 +129,11 @@ export const Rooms = () => {
                             // </motion.div>
                         )
                     })}
+                    <div className="min-w-7"></div>
                 </motion.div>
             </motion.div>
             <button className="secondary-btn self-center mt-10" type="button">VIEW ALL</button>
-        </Container>
+        </div>
     )
 }
 
