@@ -15,7 +15,7 @@ export const Navigation = ({classNameUl, classNameNav, footer}:Props) => {
     return(
         <nav className={classNameNav}>
             <ul className={classNameUl}>
-                {bannerNav.map(({id, title, className}) => <li className={`uppercase ${className}`} key={id}>{title}</li>)}
+                {bannerNav.map(({id, title, className}) => <li className={`uppercase ${className}`} key={id}><a href="#">{title}</a></li>)}
             </ul>
         </nav>
     )

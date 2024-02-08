@@ -27,6 +27,14 @@
   .secondary-text {
     @apply text-base leading-[140%] tracking-[-0.16px] font-light;
   }
+
+  .header-ul {
+    @apply
+  }
+
+  .header-li-third {
+    @apply w-full font-bold text-[80px];
+  }
 };
 
 ::-webkit-scrollbar {
