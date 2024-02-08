@@ -21,7 +21,7 @@ export const EnjoySection = () => {
         <div className="flex items-start justify-between mb-28">
           <Image  src={img2} alt="Terrace with spa"/>
           <Image src={img1} alt="Restaurant terrace"/>
-          <button type="button" className="self-end primary-btn">LEARN MORE</button>
+          <button type="button" className="self-end primary-btn w-52">LEARN MORE</button>
           <div className="w-[322px]	 text-xl text-right">
             <Image src={img3} alt="View from the balcony"/>
             <p className="secondary-text w-3/4 ml-auto text-right mt-5">We providing a serene and tranquil atmosphere.</p>

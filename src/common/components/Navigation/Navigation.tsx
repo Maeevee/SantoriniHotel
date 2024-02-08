@@ -2,18 +2,20 @@ import {useBannerNav} from "./hooks/useBannerNav"
 
 interface Props{
     footer?:boolean
+    classNameUl?:string
+    classNameNav?:string
 }
 
 // footer - true
 // header - false
 
-export const Navigation = ({footer}:Props) => {
+export const Navigation = ({classNameUl, classNameNav, footer}:Props) => {
 
     const bannerNav = useBannerNav(footer)
     return(
-        <nav className="">
-            <ul className="">
-                {bannerNav.map(({id, title, className}) => <li className={`text-[50px] uppercase ${className}`} key={id}>{title}</li>)}
+        <nav className={classNameNav}>
+            <ul className={classNameUl}>
+                {bannerNav.map(({id, title, className}) => <li className={`uppercase ${className}`} key={id}>{title}</li>)}
             </ul>
         </nav>
     )

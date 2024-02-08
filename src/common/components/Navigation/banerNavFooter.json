@@ -1,5 +1,4 @@
-[{"id": "1", "title":"Restourant", "className": "text-sm"},
-{"id": "2", "title":"Rooms", "className": "text-sm"},
-{"id": "3", "title":"Santorini Breeze", "className": "text-sm"},
-{"id": "4", "title":"About us", "className": "text-sm"},
-{"id": "5", "title":"Contacts", "className": "text-sm"}]
+[{"id": "1", "title":"Restourant", "className": "text-sm opacity-60 hover:opacity-100"},
+{"id": "2", "title":"Rooms", "className": "text-sm opacity-60 hover:opacity-100"},
+{"id": "3", "title":"About us", "className": "text-sm opacity-60 hover:opacity-100"},
+{"id": "4", "title":"Contacts", "className": "text-sm opacity-60 hover:opacity-100"}]
