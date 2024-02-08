@@ -13,7 +13,7 @@
 
 @layer components {
   .primary-btn {
-    @apply h-10 w-52 text-nowrap bg-primary rounded-2xl text-white;
+    @apply h-10 text-nowrap bg-primary rounded-2xl text-white;
   }
 
   .secondary-btn {
