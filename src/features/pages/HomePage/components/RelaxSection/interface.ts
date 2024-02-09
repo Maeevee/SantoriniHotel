@@ -1,0 +1,1 @@
+export interface IImg {id: string, src: string, className: string}

@@ -1,5 +1,6 @@
 "use client"
 
+import { AnimatedSection } from "./components/AnimatedSection/AnimatedSection"
 import { Banner } from "./components/Banner/Banner"
 import { EnjoySection } from "./components/EnjoySection/EnjoySection"
 import { RelaxSection } from "./components/RelaxSection/RelaxSection"
@@ -14,6 +15,7 @@ export const HomePage = () => {
             <Rooms/>
             <Restoraunt/>
             <RelaxSection/>
+            <AnimatedSection/>
         </>
     )
 }

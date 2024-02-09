@@ -1,5 +1,5 @@
-[{"id": "1", "title":"Restourant"},
-{"id": "2", "title":"Rooms"},
-{"id": "3", "title":"Santorini Breeze"},
-{"id": "4", "title":"About us"},
-{"id": "5", "title":"Contacts"}]
+[{"id": "1", "title":"Restourant", "className": "basis-1/12"},
+{"id": "2", "title":"Rooms", "className": "basis-1/12"},
+{"id": "3", "title":"Santorini Breeze", "className": "child-position"},
+{"id": "4", "title":"About us", "className": "basis-1/12"},
+{"id": "5", "title":"Contacts", "className": "justify-self-end"}]

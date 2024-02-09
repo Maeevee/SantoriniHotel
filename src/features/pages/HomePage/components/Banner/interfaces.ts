@@ -1,1 +1,1 @@
-export interface IBannerNav {id: string, title: string}
+export interface IBannerNav {id: string, title: string, className: string}

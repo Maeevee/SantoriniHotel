@@ -1,6 +1,8 @@
-
-interface IProps{
-    children: React.ReactNode
+interface IProps {
+    children: React.ReactNode;
+    className?: string;
 }
 
-export const Container = ({children}:IProps) => <div className="p-8">{children}</div>
+export const Container = ({ children, className }: IProps) => (
+    <div className={`p-9 ${className}`}>{children}</div>
+);
