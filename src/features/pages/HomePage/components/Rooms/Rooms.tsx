@@ -14,7 +14,8 @@ import room8 from "../../../../../../public/images/rooms/Triple_4001_Kirk_Stay_O
 
 import { useEffect, useRef, useState } from "react";
 
-// const innerWidth = window.innerWidth;
+const innerWidth = typeof window !== 'undefined' ? window.innerWidth : 0;
+
 
 const slides = [
         {
@@ -53,7 +54,7 @@ const slides = [
 
 export const Rooms = () => {
 
-    const [width, setWidth] = useState(5410 - window.innerWidth);
+    const [width, setWidth] = useState(5410 - innerWidth);
     const carousel = useRef<HTMLDivElement>(null); 
 
     useEffect(() => {
